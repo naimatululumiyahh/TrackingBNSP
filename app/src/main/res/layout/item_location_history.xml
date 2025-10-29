@@ -14,10 +14,11 @@
         android:padding="16dp">
 
         <ImageView
-            android:id="@+id/ivMapIcon" android:layout_width="48dp"
+            android:id="@+id/ivMapIcon"
+            android:layout_width="48dp"
             android:layout_height="48dp"
-            android:src="@android:drawable/ic_dialog_map"
-            android:layout_marginEnd="16dp"/>
+            android:layout_marginEnd="16dp"
+            android:src="@android:drawable/ic_dialog_map" />
 
         <LinearLayout
             android:layout_width="0dp"

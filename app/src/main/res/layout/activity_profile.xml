@@ -14,7 +14,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#1976D2"
+            android:background="@color/pink"
             android:elevation="4dp" />
 
         <LinearLayout
@@ -41,9 +41,10 @@
                     android:id="@+id/etUsername"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:enabled="false"
                     android:hint="Username"
                     android:inputType="text"
-                    android:enabled="false" />
+                    android:textColorLink="@color/pink" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -55,9 +56,10 @@
                     android:id="@+id/etNama"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:enabled="false"
                     android:hint="Nama Lengkap"
                     android:inputType="textPersonName"
-                    android:enabled="false" />
+                    android:textColorLink="@color/pink" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -69,19 +71,21 @@
                     android:id="@+id/etNomorTelepon"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:enabled="false"
                     android:hint="Nomor Telepon"
                     android:inputType="phone"
-                    android:enabled="false" />
+                    android:textColorLink="@color/pink" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
                 android:id="@+id/btnEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Edit Profile"
-                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/pink"
                 android:padding="16dp"
-                android:layout_marginBottom="8dp" />
+                android:text="Edit Profile"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/btnSave"

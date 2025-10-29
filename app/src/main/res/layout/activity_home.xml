@@ -9,7 +9,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#1976D2"
+        android:background="@color/pink"
         android:elevation="4dp" />
 
     <ScrollView
@@ -62,18 +62,18 @@
                     <ImageView
                         android:layout_width="64dp"
                         android:layout_height="64dp"
+                        android:layout_marginBottom="16dp"
                         android:src="@android:drawable/ic_dialog_map"
-                        android:tint="#1976D2"
-                        android:layout_marginBottom="16dp"/>
+                        android:tint="@color/pink" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
                         android:text="Lihat di Google Maps"
+                        android:textColor="@color/pink"
                         android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:textColor="#1976D2"
-                        android:layout_marginBottom="8dp"/>
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/tvLocationPreview"
@@ -100,40 +100,40 @@
                 android:id="@+id/btnSaveLocation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="💾 Simpan Lokasi Sekarang"
-                android:textSize="16sp"
-                android:padding="16dp"
                 android:layout_marginBottom="8dp"
-                android:backgroundTint="#4CAF50" />
+                android:backgroundTint="@color/pink"
+                android:padding="16dp"
+                android:text="Simpan Lokasi Sekarang"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/btnHistory"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="📍 Lihat Riwayat Lokasi"
-                android:textSize="16sp"
-                android:padding="16dp"
                 android:layout_marginBottom="8dp"
-                android:backgroundTint="#FF9800" />
+                android:backgroundTint="@color/pink"
+                android:padding="16dp"
+                android:text="Lihat Riwayat Lokasi"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/btnProfile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="👤 Lihat Profile"
-                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/pink"
                 android:padding="16dp"
-                android:layout_marginBottom="8dp" />
+                android:text=" Lihat Profile"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/btnLogout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="🚪 Logout"
-                android:textSize="16sp"
-                android:padding="16dp"
                 android:backgroundTint="#D32F2F"
-                />
+                android:padding="16dp"
+                android:text="Logout"
+                android:textSize="16sp" />
 
         </LinearLayout>
     </ScrollView>
