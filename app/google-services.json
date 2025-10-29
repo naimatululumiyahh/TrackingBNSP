@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "66765222890",
+    "project_id": "trackingbnsp",
+    "storage_bucket": "trackingbnsp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66765222890:android:53bd03bd91088de8d13893",
+        "android_client_info": {
+          "package_name": "com.example.trackingbnsp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8KVU8mHlLiMKpHXvTAlL8s98ly-4Yyeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
